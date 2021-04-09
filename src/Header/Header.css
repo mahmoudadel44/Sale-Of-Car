@@ -12,22 +12,23 @@
   background-color: #fff;
 }
 .header .navbar .navImage{width: 70%; margin-top: 5px;}
-.header .navbar .nav-btn{
+.header .navbar .navBtn{
+  padding-bottom: 6px;
   margin-top: 5px;
   width: 100px;
   border: none;
   font-size: 20px;
   border-radius: 5px;
-  height: 45px;
+  height: 40px;
   background-color: #EC1C24;
   color: #fff;
 }
-.header .navbar .nav-btn:focus, .header .head-btn{
+.header .navbar .nav-btn:focus, .header .headBtn{
   box-shadow: none;
   outline: none;
 }
 
-.header .head-btn{
+.header .headBtn{
   background-color: #EC1C24;
   color: #fff;
   width: 150px;
@@ -35,7 +36,7 @@
   border-radius: 5px;
   border: none;
 }
-.header .head-btn span{
+.header .headBtn span{
   margin-right: 10px;
   font-size: 16px;
 }
@@ -43,20 +44,20 @@
 
 /*Start Header Section*/
 
-.header .head-item{
+.header .headItem{
   position: absolute;
   bottom: -4%;
   text-align: center;
   left: 37%;
 }
 
-.header .head-text h2, .header .head-text h4{
+.header .headText h2, .header .headText h4{
   font-size: 28px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
 }
-.header .head-text h4{
+.header .headText h4{
   font-size: 22px;
 }
 /* End Header section */

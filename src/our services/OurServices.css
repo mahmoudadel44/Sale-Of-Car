@@ -26,7 +26,6 @@ height: 230px;
 }
 .services .serviceDetails .serviceImg{
   font-size: 40px;
-margin: auto;
   color: red;
 }
 @media(max-width:992px){

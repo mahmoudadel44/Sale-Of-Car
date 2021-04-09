@@ -3,7 +3,7 @@ import "./OurServices.css";
 const OurServicesCard = ({ servicesdata }) => {
   return (
     <div className="serviceDetails d-flex">
-      <div className="easyProcessImg d-flex align-items-center">
+      <div className="easyProcessImg d-flex">
         <div className="serviceImg mr-4">{servicesdata.serviceImg}</div>
       </div>
       <div className="d-flex flex-column titleWithDescription">
