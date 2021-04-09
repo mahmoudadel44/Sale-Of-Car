@@ -1,0 +1,62 @@
+/*Start Header Section*/
+.header{
+  background-image: url('../images/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+}
+
+/*Start Navbar Section*/
+.header .navbar{  
+  padding: 10px 0 15px;
+  background-color: #fff;
+}
+.header .navbar .navImage{width: 70%; margin-top: 5px;}
+.header .navbar .nav-btn{
+  margin-top: 5px;
+  width: 100px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 45px;
+  background-color: #EC1C24;
+  color: #fff;
+}
+.header .navbar .nav-btn:focus, .header .head-btn{
+  box-shadow: none;
+  outline: none;
+}
+
+.header .head-btn{
+  background-color: #EC1C24;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.header .head-btn span{
+  margin-right: 10px;
+  font-size: 16px;
+}
+/*End Navbar Section*/
+
+/*Start Header Section*/
+
+.header .head-item{
+  position: absolute;
+  bottom: -4%;
+  text-align: center;
+  left: 37%;
+}
+
+.header .head-text h2, .header .head-text h4{
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .head-text h4{
+  font-size: 22px;
+}
+/* End Header section */

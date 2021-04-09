@@ -1,0 +1,23 @@
+.prepare{
+  padding: 80px 220px;
+}
+.prepare h2{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.prepare .required ul{
+  list-style: none;
+}
+.prepare .required ul li::before {
+  content: "\2022";
+  color: #EC1C24;
+  font-weight: bold;
+  display: inline-block;
+  width: 30px;
+  margin-left: -30px;
+  font-size: 25px;
+}
+
+
+

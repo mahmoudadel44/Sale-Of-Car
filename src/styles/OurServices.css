@@ -5,6 +5,40 @@ body{
   padding: 0;
   margin:0;
 }
+
 .services{
   background-color: #F6FBFF;
+  height: auto;
+}
+.services .serviceDetails{
+  border: 1px solid #EEE;
+  border-radius: 6px;
+  background-color: #fff;
+  height: 237px;
+  padding:42px;
+}
+@media(max-width:992px){
+  .serviceDetails{
+flex-direction: column;
+padding: 10px;
+height: 230px;
+  }
+}
+.services .serviceDetails .serviceImg{
+  font-size: 40px;
+margin: auto;
+  color: red;
+}
+@media(max-width:992px){
+.services .serviceDetails  .easyProcessImg{
+margin: 0 auto;
+  }
+}
+@media(max-width:992px){
+.services .serviceDetails  .titleWithDescription{
+text-align: center;
+  }
+}
+.services .serviceDetails .descriptionService{
+  font-size: 13px;
 }
