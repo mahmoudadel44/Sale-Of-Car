@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/OurServices.css";
+import "./OurServices.css";
 const OurServicesCard = ({ servicesdata }) => {
   return (
     <div className="serviceDetails d-flex">

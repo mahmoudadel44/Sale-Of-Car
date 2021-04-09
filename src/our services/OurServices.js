@@ -1,9 +1,8 @@
 import React from "react";
-import "../styles/OurServices.css";
+import "./OurServices.css";
 import OurServicesCard from "./OurServicesCard";
 
 const OurServices = ({ services }) => {
-  console.log("services", services);
   return (
     <section className="services">
       <div className="container">

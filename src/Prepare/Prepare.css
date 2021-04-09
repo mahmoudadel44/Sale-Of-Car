@@ -1,10 +1,14 @@
 .prepare{
-  padding: 80px 220px;
 }
 .prepare h2{
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 15px;
+}
+@media(max-width:992px){
+  .prepare h2{
+    font-size: 26px;
+  }
 }
 .prepare .required ul{
   list-style: none;

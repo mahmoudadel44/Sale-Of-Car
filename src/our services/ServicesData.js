@@ -12,7 +12,7 @@ const data = [
     serviceTitle: "Easy Process",
     serviceDescription:
       "We help you save time and effort. We master how to sell a car privately and have simplified the process of selling a vehicle to make it hassle-free.",
-    serviceImg: <FontAwesomeIcon icon={faFileExcel} size="20px" />,
+    serviceImg: <FontAwesomeIcon icon={faFileExcel} />,
   },
   {
     id: 2,
