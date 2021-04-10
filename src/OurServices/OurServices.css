@@ -11,9 +11,22 @@ body{
   background-color: #F6FBFF;
   height: auto;
 }
+
+.services p{
+  color: #595F6F;
+  font-size: 16px;
+}
+
+.services .serv-content{
+  padding: 10% 25% 0% ;
+}
+
 @media (max-width:600px){
   .services h1{
     font-size: 34px;
+  }
+  .services .serv-content{
+    padding: 10% 0 0;
   }
 }
 .services .serviceDetails{
@@ -25,18 +38,19 @@ body{
 }
 @media(max-width:992px){
   .serviceDetails{
-flex-direction: column;
-padding: 10px;
-height: 230px;
+    flex-direction: column;
+    padding: 10px;
+    height: 230px;
   }
 }
 .services .serviceDetails .serviceImg{
   font-size: 40px;
   color: red;
+  margin-right: 30px;
 }
 @media(max-width:992px){
-.services .serviceDetails  .easyProcessImg{
-margin: 0 auto;
+.services .serviceDetails .easyProcessImg{
+margin: 5px 45%;
   }
 }
 @media(max-width:992px){
@@ -47,5 +61,10 @@ text-align: center;
 .services .serviceDetails .descriptionService{
   font-size: 13px;
 }
-
+  
+@media(max-width:992px){
+  .allservices{
+    padding: 20px;
+  }
+}
 /* End Our-Services Section  */

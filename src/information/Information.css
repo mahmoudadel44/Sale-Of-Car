@@ -18,7 +18,12 @@
 @media(max-width:992px){
   .information .left-side  {
       width: 100%;
+      padding: 50px;
   }
+  .information .right-side .div_content{
+    margin-top: 0 !important;
+  }
+  .information .right-side{ padding: 60px;}
   .header .head-item { left: 30%;}
 
 }
@@ -83,7 +88,12 @@
   .information .right-side{
       width: 100%;
   }
-
+  .information .right-side h2{
+    font-size: 18px !important;
+  }
+  .information .right-side p{
+    font-size: 12px !important;
+  }
 }
 .information .overlay{
   position: absolute;
@@ -98,7 +108,7 @@
 .information .right-side .div_content{
   position: relative;
   z-index: 3;
-  margin-top: 31%; 
+  margin-top: 33%; 
   color: #fff;
 }
 .information .right-side h2{ 
@@ -106,6 +116,8 @@
   font-weight: bold;
   margin-top: 15px;
 }
+
+
 .information .right-side p{
   font-size: 16px;
   font-weight: bold;

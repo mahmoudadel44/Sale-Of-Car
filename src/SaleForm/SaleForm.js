@@ -12,7 +12,7 @@ const SaleForm = () => {
     console.log("values", values);
   };
   return (
-    <section className="p-5">
+    <section className="p-5 form">
       <div className="text-center mb-3">
         <h2 className="start">Start today!</h2>
         <span>You are just one click away from selling your car. </span>
@@ -77,7 +77,7 @@ const SaleForm = () => {
                       values.model === "" &&
                       values.fullname === "" &&
                       values.phonenumber === "" ? (
-                        <small className="form-text text-left p-1 mt-2 allRequired">
+                        <small className="form-text text-left p-1 mt-5">
                           * All filelds are required to be filled
                         </small>
                       ) : null}

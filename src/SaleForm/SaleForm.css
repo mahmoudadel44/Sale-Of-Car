@@ -11,6 +11,11 @@ text-align: center;
 .inquery .support{
   font-weight: 500;
 }
+.inquery p, .inquery span{
+  color: #595F6F;
+  font-size: 14px;
+}
+
 @media(max-width:776px){
   .saleForm .start{
 margin-top: 25px;
@@ -27,30 +32,35 @@ margin-top: 25px;
 .saleForm button{
   background-color: #EC1C24;
   color: #fff;
-  width: 178px;
+  width: 36%;
   border-radius: 5px;
   border: none;
+  padding: 10px 17px;
+  font-size: 15px;
 }
-@media(max-width:776px){
+@media(max-width:992px){
   .addDetails{
     margin-top: 50px;
+  }
+  .saleForm button{
+    width: 55%
   }
 }
 .saleForm input,.saleForm select{
   width:85%;
+  padding: 10px 20px;
 }
+@media(max-width:992px){
+  .saleForm input,.saleForm select{
+    width: 100%}
+    .form-text{width: 100% !important;}
+  }
 .saleForm input:focus,.saleForm select:focus{
   box-shadow: none;
   outline: none;
-  /* border-color: #ced4da; */
-  /* border-color: #ee494e; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.saleForm select:focus{
-  /* background-color: #FFF6F6; */
-   /* border-color:  #EC1C24; */
 
-}
 .saleForm select:focus option{
 background: #EC1C24;
 color: #fff;
@@ -69,11 +79,12 @@ color: #fff;
   }
 }
 
-.saleForm form .form-text{
+ .form-text{
     background: #EC1C24;
     color: #fff;
     width: 85%;
     margin-top: 0px;
-    text-align: right;
+    text-align: start;
     border-radius: 3px;
+    display: block;
 }
