@@ -4,26 +4,28 @@ import "./Header.css";
 import Logo from "../images/Logo.png";
 const Header = () => {
   return (
-    <section className="header text-center">
-      <nav className="navbar navbar-fixed-top navbar-expand-lg navbar-light roboto-font">
-        <div className="container">
-          <div className="navbar-brand" href="#">
-            <img src={Logo} className="navImage" alt="logo" />
+    <section class="header text-center">
+      <div class="overlay"></div>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light roboto-font">
+        <div class="container">
+          <div class="navbar-brand" href="#">
+            <img src={Logo} class="navImage" alt="Logo" />
           </div>
-          <button className="navBtn">العربية</button>
+          <button class="nav-btn">العربية</button>
         </div>
       </nav>
-      <div class="headItem">
-        <div class="headText mb-5">
+
+      <div class="head-item">
+        <div class="head-text mb-5">
           <div class="container">
             <h2>Selling Your Car Now</h2>
             <h4>Is Easier than ever</h4>
           </div>
         </div>
 
-        <button class="headBtn">
+        <button class="head-btn">
           <span>Start Today</span>
-          <FaChevronDown />{" "}
+          <FaChevronDown />
         </button>
       </div>
     </section>

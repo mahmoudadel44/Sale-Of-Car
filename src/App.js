@@ -1,18 +1,22 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./Header/Header";
-import ServicesData from "./our services/ServicesData";
-import PrepareData from "./Prepare/PrepareData";
+import Information from "./information/Information";
 import SaleForm from "./SaleForm/SaleForm";
+import ServicesData from "./Our Services/ServicesData";
+import PrepareData from "./Prepare/PrepareData";
+import Documentation from "./Documentaion/Documentation";
 const App = () => {
   return (
     <BrowserRouter>
       {" "}
       <div>
         <Header />
+        <Information />
+        <SaleForm />
         <ServicesData />
         <PrepareData />
-        <SaleForm />
+        <Documentation />
       </div>
     </BrowserRouter>
   );

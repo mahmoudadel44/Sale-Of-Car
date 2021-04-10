@@ -1,34 +1,47 @@
+
 /*Start Header Section*/
 .header{
   background-image: url('../images/header.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 660px;
+  position: relative;
+  z-index: 4;
+}
+.header .overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  z-index: 5;
 }
 
 /*Start Navbar Section*/
 .header .navbar{  
   padding: 10px 0 15px;
   background-color: #fff;
+  z-index: 10;
 }
 .header .navbar .navImage{width: 70%; margin-top: 5px;}
-.header .navbar .navBtn{
-  padding-bottom: 6px;
+.header .navbar .nav-btn{
   margin-top: 5px;
   width: 100px;
   border: none;
   font-size: 20px;
   border-radius: 5px;
-  height: 40px;
+  height: 45px;
   background-color: #EC1C24;
   color: #fff;
 }
-.header .navbar .nav-btn:focus, .header .headBtn{
+.header .navbar .nav-btn:focus, .header .head-btn{
   box-shadow: none;
   outline: none;
 }
 
-.header .headBtn{
+.header .head-btn{
   background-color: #EC1C24;
   color: #fff;
   width: 150px;
@@ -36,7 +49,7 @@
   border-radius: 5px;
   border: none;
 }
-.header .headBtn span{
+.header .head-btn span{
   margin-right: 10px;
   font-size: 16px;
 }
@@ -44,20 +57,21 @@
 
 /*Start Header Section*/
 
-.header .headItem{
+.header .head-item{
   position: absolute;
   bottom: -4%;
   text-align: center;
   left: 37%;
+  z-index: 6;
 }
 
-.header .headText h2, .header .headText h4{
+.header .head-text h2, .header .head-text h4{
   font-size: 28px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
 }
-.header .headText h4{
+.header .head-text h4{
   font-size: 22px;
 }
 /* End Header section */

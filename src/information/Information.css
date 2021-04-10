@@ -1,0 +1,101 @@
+/* Start Information Section*/
+.information{
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width:992px){
+  .information{
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+.information .left-side {
+  background-color: #323E47;
+  color: #fff;
+  padding: 50px;
+  width: 50%;
+}
+@media(max-width:992px){
+  .information .left-side  {
+      width: 100%;
+  }
+  .header .head-item { left: 30%;}
+
+}
+.information .work{
+  padding: 50px;
+}
+.information .work h2{
+  font-weight: bold;
+  font-size: 36px;
+}
+.information .nums {
+  margin-top: 40px;
+}
+.information .num1, .information .num2, .information .num3{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.information .num{
+  width: 30px;
+  height: 30px;
+  background-color: #EC1C24;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.information .num span{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.information .left-side .text h6{ font-size: 14px;}
+.information .text p {
+  font-size: 11px;
+}
+
+.information .right-side{
+  background-image: url('../images/red_side.png');
+  background-repeat: no-repeat;
+  background-size: cover ;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+@media(max-width:992px){
+  .information .right-side{
+      width: 100%;
+  }
+
+}
+.information .overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #EC1C24;
+  opacity: .7;
+  z-index: 2;
+}
+.information .right-side .div_content{
+  position: relative;
+  z-index: 3;
+  margin-top: 31%; 
+  color: #fff;
+}
+.information .right-side h2{ 
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.information .right-side p{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: .9;
+}
+/* End Information Section*/

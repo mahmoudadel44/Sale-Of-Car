@@ -1,5 +1,5 @@
 import React from "react";
-import OurServices from "../our services/OurServices";
+import OurServices from "./OurServices";
 import { FaFile, FaStar, FaClock } from "react-icons/fa";
 
 const data = [

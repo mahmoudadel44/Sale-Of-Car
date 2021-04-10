@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import "./SaleForm.css";
-import Video from "../Video/videoCar.mp4";
+import Video from "../Video/Video.mp4";
 const SaleForm = () => {
   return (
     <section className="p-5">
@@ -36,7 +36,7 @@ const SaleForm = () => {
             </div>
             <div className="col-md-6 col-sm-12 pl-5">
               <form>
-                <h5 className="mt-3 mb-3">Enter your car details</h5>
+                <h5 className="mt-3 mb-3 addDetails">Enter your car details</h5>
                 <label for="CarModel" className="mt-2">
                   Car Make
                 </label>
@@ -46,7 +46,7 @@ const SaleForm = () => {
                   aria-label="Default select example"
                   required
                 >
-                  <option selected>Renault</option>
+                  <option selected>Select Brand</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
@@ -58,8 +58,9 @@ const SaleForm = () => {
                 <select
                   className="form-select mt-2"
                   aria-label="Default select example"
+                  required
                 >
-                  <option selected>Capture</option>
+                  <option selected>Select Model</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
@@ -73,8 +74,10 @@ const SaleForm = () => {
                     type="text"
                     className="form-control"
                     id="exampleFullName"
-                    aria-describedby="FulNameHelp"
+                    aria-describedby="FulName
+                    Help"
                     placeholder="Magdy Allam"
+                    required
                   />
                 </div>
                 <div className="mb-3 mt-3">
@@ -87,6 +90,7 @@ const SaleForm = () => {
                     id="exampleFullName"
                     aria-describedby="FulNameHelp"
                     placeholder="+972 444 786 096"
+                    required
                   />
                 </div>
                 <button type="submit" className="btn mt-5 send">
