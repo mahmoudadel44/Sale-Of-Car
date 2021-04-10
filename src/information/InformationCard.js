@@ -4,7 +4,7 @@ const InformationCard = ({ information }) => {
   return (
     <>
       {information.map((info) => (
-        <div className="num1">
+        <div className="num1" key={info.id}>
           <div className="num">
             <span>{info.infoNumber}</span>
           </div>

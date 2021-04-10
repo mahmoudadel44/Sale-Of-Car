@@ -2,7 +2,7 @@ import React from "react";
 
 const PrepareCard = ({ preparesdata }) => {
   return (
-    <div class="col-md-6 col-sm-12">
+    <div className="col-md-6 col-sm-12">
       <ul>
         <li>{preparesdata.prepareStep}</li>
       </ul>

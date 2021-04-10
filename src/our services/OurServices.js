@@ -14,7 +14,7 @@ const OurServices = ({ services }) => {
         <div className="row justify-content-around">
           {services?.map((service) => (
             <div className="col-md-4 col-sm-12 py-5">
-              <OurServicesCard servicesdata={service} key={service.id} />
+              <OurServicesCard servicesdata={service} />
             </div>
           ))}
         </div>

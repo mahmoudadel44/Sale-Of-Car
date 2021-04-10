@@ -2,7 +2,7 @@ import React from "react";
 import "./OurServices.css";
 const OurServicesCard = ({ servicesdata }) => {
   return (
-    <div className="serviceDetails d-flex">
+    <div className="serviceDetails d-flex" key={servicesdata.id}>
       <div className="easyProcessImg d-flex">
         <div className="serviceImg mr-4">{servicesdata.serviceImg}</div>
       </div>

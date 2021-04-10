@@ -31,7 +31,6 @@ const data = [
 ];
 
 const SocialMediaData = () => {
-  console.log("data", data);
   return <SociaMediaCard social={data} />;
 };
 

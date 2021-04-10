@@ -27,7 +27,6 @@ const data = [
 ];
 
 const ServicesData = () => {
-  console.log("data", data);
   return <OurServices services={data} />;
 };
 

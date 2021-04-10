@@ -44,7 +44,6 @@ const data = [
 ];
 
 const PrepareData = () => {
-  console.log("data", data);
   return <Prepare prepares={data} />;
 };
 

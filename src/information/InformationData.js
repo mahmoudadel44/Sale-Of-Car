@@ -24,7 +24,6 @@ const data = [
 ];
 
 const InformationData = () => {
-  console.log("data", data);
   return <InformationCard information={data} />;
 };
 

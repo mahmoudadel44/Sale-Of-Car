@@ -43,18 +43,20 @@ margin-top: 25px;
   box-shadow: none;
   outline: none;
   /* border-color: #ced4da; */
-  border-color: #ee494e;
+  /* border-color: #ee494e; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .saleForm select:focus{
-  background-color: #FFF6F6;
+  /* background-color: #FFF6F6; */
+   /* border-color:  #EC1C24; */
+
 }
 .saleForm select:focus option{
 background: #EC1C24;
 color: #fff;
 }
 .saleForm select:focus option:hover{
-  background: red;
+  background: #EC1C24;
   color: #fff;
   }
 .saleForm button:hover{
@@ -65,4 +67,13 @@ color: #fff;
     margin-top: 100px;
     padding: 0;
   }
+}
+
+.saleForm form .form-text{
+    background: #EC1C24;
+    color: #fff;
+    width: 85%;
+    margin-top: 0px;
+    text-align: right;
+    border-radius: 3px;
 }
