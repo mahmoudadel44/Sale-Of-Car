@@ -6,6 +6,7 @@ import SaleForm from "./SaleForm/SaleForm";
 import ServicesData from "./Our Services/ServicesData";
 import PrepareData from "./Prepare/PrepareData";
 import Documentation from "./Documentaion/Documentation";
+import Footer from "./Footer/Footer";
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const App = () => {
         <ServicesData />
         <PrepareData />
         <Documentation />
+        <Footer />
       </div>
     </BrowserRouter>
   );
