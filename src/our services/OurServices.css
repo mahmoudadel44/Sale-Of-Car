@@ -11,6 +11,11 @@ body{
   background-color: #F6FBFF;
   height: auto;
 }
+@media (max-width:600px){
+  .services h1{
+    font-size: 34px;
+  }
+}
 .services .serviceDetails{
   border: 1px solid #EEE;
   border-radius: 6px;

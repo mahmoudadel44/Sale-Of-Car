@@ -25,9 +25,19 @@
 .information .work{
   padding: 50px;
 }
+@media (max-width:992px){
+  .information .work{
+  padding: 0;
+  }
+}
 .information .work h2{
   font-weight: bold;
   font-size: 36px;
+}
+@media(max-width:776px){
+  .information .work h2{
+    font-size: 32px;
+  }
 }
 .information .nums {
   margin-top: 40px;
@@ -44,6 +54,9 @@
   border-radius: 50%;
   margin-right: 15px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .information .num span{

@@ -1,11 +1,20 @@
 import React from "react";
-import Logo from "../images/Logo";
+// import {
+//   FaFacebookF,
+//   FaTwitter,
+//   FaYoutube,
+//   FaInstagram,
+//   FaGooglePlusG,
+// } from "react-icons/fa";
+import SocialMediaData from "./SocialMediaData";
+import "./Footer.css";
+import Logo from "../images/Logo.png";
 const Footer = () => {
   return (
-    <section class="footer">
-      <div class="container">
-        <div class="foot">
-          <div class="left-side">
+    <section className="footer">
+      <div className="container">
+        <div className="foot">
+          <div className="left-side">
             <img src={Logo} alt="Logo" />
             <div>
               <p>
@@ -15,28 +24,12 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div class="right-side">
+          <div className="right-side">
             <p>
               Follow the first and the largest online auction in UAE and Middle
               East{" "}
             </p>
-            <ul>
-              <li class="face">
-                <i class="fab fa-facebook-f"></i>
-              </li>
-              <li class="twitter">
-                <i class="fab fa-twitter"></i>
-              </li>
-              <li class="youtube">
-                <i class="fab fa-youtube"></i>
-              </li>
-              <li class="insta">
-                <i class="fab fa-instagram"></i>
-              </li>
-              <li class="google">
-                <i class="fab fa-google-plus-g"></i>
-              </li>
-            </ul>
+            <SocialMediaData />
           </div>
         </div>
       </div>

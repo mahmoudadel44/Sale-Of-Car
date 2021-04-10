@@ -6,7 +6,7 @@ const SaleForm = () => {
   return (
     <section className="p-5">
       <div className="text-center mb-3">
-        <h2>Start today!</h2>
+        <h2 className="start">Start today!</h2>
         <span>You are just one click away from selling your car. </span>
       </div>
       <section className="saleForm">
@@ -34,8 +34,8 @@ const SaleForm = () => {
                 <span className="mt-2">Ready to sell your car?</span>
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 pl-5">
-              <form>
+            <div className="col-md-6 col-sm-12 pl-5 formContainer">
+              <form className="py-5">
                 <h5 className="mt-3 mb-3 addDetails">Enter your car details</h5>
                 <label for="CarModel" className="mt-2">
                   Car Make
@@ -65,7 +65,7 @@ const SaleForm = () => {
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
-                <h5 className="mt-4 mb-4">Enter your Contact Info</h5>
+                <h5 className="mt-3 mb-3">Enter your Contact Info</h5>
                 <div className="mb-3">
                   <label for="exampleFullName" className="form-label">
                     Yor Full Name
@@ -93,7 +93,7 @@ const SaleForm = () => {
                     required
                   />
                 </div>
-                <button type="submit" className="btn mt-5 send">
+                <button type="submit" className="btn mt-4 send">
                   Send Your Inquery <FaChevronRight />
                 </button>
               </form>
