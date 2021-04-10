@@ -89,7 +89,7 @@
       width: 100%;
   }
   .information .right-side h2{
-    font-size: 18px !important;
+    font-size: 13px !important;
   }
   .information .right-side p{
     font-size: 12px !important;
@@ -121,6 +121,6 @@
 .information .right-side p{
   font-size: 16px;
   font-weight: bold;
-  line-height: .9;
+  line-height: 1.6;
 }
 /* End Information Section*/
