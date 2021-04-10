@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { WOW } from "wowjs/dist/wow";
 import App from "./App";
-import "bootstrap/dist/css/bootstrap.min.css";
 // WoW - animation on scroll
 const wow = new WOW({
   boxClass: "wow", // animated element css class (default is wow)
